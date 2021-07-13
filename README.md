@@ -2,7 +2,7 @@
 Google Cloud Vision API enables developers to understand the content of an image by encapsulating powerful machine learning models in an easy to use REST API. It quickly classifies images into thousands of categories (e.g., "sailboat", "lion", "Eiffel Tower"), detects individual objects, faces within images, finds/reads printed words and contained within images.
 
 ## Getting Started
-The Visoin API has very broader scope therefore we will discuss only two features and its API Implementation here:
+The Vision API has a very broader scope therefore we will discuss only two features and its API Implementation here:
 
 1. Text Detection (OCR)   
 2. Label Detection
@@ -21,7 +21,7 @@ such as:
 ```
 POST https://vision.googleapis.com/v1/images:annotate?key=YOUR_API_KEY
 ```
-we are just testing these API in Google Vision API [console](https://developers.google.com/apis-explorer/?hl=en_GB#p/vision/v1/) therefore we can work without authentication.
+Since we are just testing these API on Google Vision API [console](https://developers.google.com/apis-explorer/?hl=en_GB#p/vision/v1/) therefore we can work without authentication.
 
 #### Body
 The body of your POST request contains a JSON object of type AnnotateImageRequest, such as:
@@ -43,7 +43,7 @@ The body of your POST request contains a JSON object of type AnnotateImageReques
 ```
 
 #### Console
-You can try requests mentioned below in Google Vision API [console](https://developers.google.com/apis-explorer/?hl=en_GB#p/vision/v1/)
+You can try the requests mentioned below on Google Vision API [console](https://developers.google.com/apis-explorer/?hl=en_GB#p/vision/v1/)
 
 ## 1. Text Detection (OCR)
 The Vision API can detect and extract text from images. For example, a photograph might contain a street sign or traffic sign. 
